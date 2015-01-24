@@ -3,16 +3,16 @@
 /**
  * Slim Framework route generator for RESTful resources
  */
-class ResourceRouter
+class Route
 {
 
   /**
    * Generates routes for a given resource and controller
-   * @param  Slim\Slim  $app
+   * @param  \Slim\Slim  $app
    * @param  string     $route
    * @param  string     $controller
    */
-  public static function create(Slim\Slim &$app, $route, $controller) {
+  public static function create(\Slim\Slim &$app, $route, $controller) {
     $ctrl = self::getController($controller);
     $route = self::generateRoute($route);
 

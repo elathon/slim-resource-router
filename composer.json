@@ -1,0 +1,15 @@
+{
+    "name": "thesenicethings/slim-resource-router",
+    "description": "RESTful route generator for Slim",
+    "authors": [
+        {
+            "name": "Thomas Brocken",
+            "email": "thomas@thesenicethings.com"
+        }
+    ],
+    "autoload": {
+        "psr-0" : {
+            "thesenicethings\\ResourceRouter" : "src"
+        }
+    }
+}
